@@ -61,7 +61,7 @@ When you want a new feature:
 > Write `plan.md` in markdown. Include: milestones, tasks per milestone, file structure, and exact commands to run.
 
 ### Reconcile
-> Read `spec.md` and `plan.md`. List discrepancies and propose a corrected version of both.
+> Read `spec.md` and `plan.md`. List discrepancies and propose a corrected version of both as necessary.
 
 ### Implement a milestone
-> Implement Milestone 1 from `plan.md`. Give a patch/diff per file. Don’t change unrelated code.
+> Implement Milestone 1 from `plan.md`. Go step-by-step.
