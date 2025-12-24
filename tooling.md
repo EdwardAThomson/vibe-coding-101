@@ -32,6 +32,8 @@ The goal: **get from idea → running code → iteration** with as little fricti
     - VS Code is a full IDE that is free to download and use.
 - Git (optional but recommended)
 
+---
+
 ### Setup B — IDE assistant (recommended for most people)
 
 **Best for:** building real projects, iterating quickly, keeping changes controlled  
@@ -57,6 +59,7 @@ The goal: **get from idea → running code → iteration** with as little fricti
 - Keep milestones short
 - Run tests / run the app after each change
 
+---
 
 ### Setup C — Agentic CLI (power-user mode)
 
