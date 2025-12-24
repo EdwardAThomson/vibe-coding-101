@@ -25,6 +25,8 @@ Simply generate **a spec + a plan**, then **ship code in small milestones** with
 3. **Bring it into your IDE**
    Save the files locally and open your IDE (e.g. Cursor, Windsurf, Antigravity).
 
+   For suggestions on which IDE to use (plus costs), see [tooling.md](tooling.md).
+
 4. **Reconcile the docs**
    Ask the AI agent to read both documents and remove any discrepancies:
    - missing requirements
