@@ -1,0 +1,67 @@
+# Vibe Coding
+
+"Vibe Coding" is the phrase we use to describe writing code with AI.
+
+You can code purely by "vibing along with AI": You chat to it and ask for new code as the ideas come to you. However, I think you can produce apps more reliably by having a process.
+
+Here is a simple workflow for building software by having an AI generate **a spec + a plan**, and then **shipping code in small milestones** with rapid iteration.
+
+---
+
+## The Vibe Coding Process (simple version)
+
+1. **Describe the goal**
+   Go to a chatbot (e.g. ChatGPT) and explain what you want to build.
+
+2. **Generate two docs**
+   Ask for:
+   - `spec.md` — what the system should do (requirements, constraints, acceptance criteria)
+   - `plan.md` — how to build it (milestones, tasks, file structure)
+
+3. **Bring it into your IDE**
+   Save the files locally and open your IDE (e.g. Cursor, Windsurf, Antigravity).
+
+4. **Reconcile the docs**
+   Ask the AI agent to read both documents and remove any discrepancies:
+   - missing requirements
+   - conflicting assumptions
+   - unclear scope
+   - unrealistic milestones
+
+5. **Code milestone-by-milestone**
+   Ask the AI to implement the project following `plan.md`, one milestone at a time.
+   Run the code constantly. Fix issues. Repeat.
+
+---
+
+## Adding features later
+
+When you want a new feature:
+1. Ask for a new `plan.md` document (how to implement it)
+    - Ask AI for help. It isn't necessary to create another spec. The new plan can be detailed.
+2. Implement milestone-by-milestone again
+
+---
+
+## A few suggestions that should help
+
+- **Keep milestones small.** LLMs are good at suggesting multiple tasks per milestone.
+- **Run the code after every change.** Don’t “trust”, verify.
+- **Ask AI to debug errors."** Ask AI to read error codes, or makes suggestions to fix bugs.
+- **Write acceptance criteria.** Ask AI to help you define tests and then check them.
+
+---
+
+## Copy/paste prompts
+
+### Create spec
+> Write `spec.md` for this project in markdown. Include: goals, non-goals, user stories, requirements, constraints, acceptance criteria.
+
+### Create plan
+> Write `plan.md` in markdown. Include: milestones, tasks per milestone, file structure, and exact commands to run.
+
+### Reconcile
+> Read `spec.md` and `plan.md`. List discrepancies and propose a corrected version of both.
+
+### Implement a milestone
+> Implement Milestone 1 from `plan.md`. Give a patch/diff per file. Don’t change unrelated code.
