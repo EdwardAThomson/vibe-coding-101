@@ -1,14 +1,18 @@
-# Vibe Coding
+# Vibe Coding 101
 
 "Vibe Coding" is the phrase we use to describe writing code with AI.
 
-You can code purely by "vibing along with AI": You chat to it and ask for new code as the ideas come to you. However, I think you can produce apps more reliably by having a process.
+You can code purely by "vibing along with AI".
 
-Here is a simple workflow for building software by having an AI generate **a spec + a plan**, and then **shipping code in small milestones** with rapid iteration.
-
+However, I think you can produce apps more reliably by having a process.
 
 
 ## Simple Vibe Coding Process
+
+Here is a simple 5-step process for building software.
+
+Simply generate **a spec + a plan**, then **ship code in small milestones** with rapid iteration.
+
 
 1. **Describe the goal**
    Go to a chatbot (e.g. ChatGPT) and explain what you want to build.
@@ -37,6 +41,7 @@ Here is a simple workflow for building software by having an AI generate **a spe
 ## Adding features later
 
 When you want a new feature:
+
 1. Ask for a new `plan.md` document (how to implement it)
     - Ask AI for help. It isn't necessary to create another spec. The new plan can be detailed.
 2. Implement milestone-by-milestone again
