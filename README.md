@@ -6,9 +6,9 @@ You can code purely by "vibing along with AI": You chat to it and ask for new co
 
 Here is a simple workflow for building software by having an AI generate **a spec + a plan**, and then **shipping code in small milestones** with rapid iteration.
 
----
 
-## The Vibe Coding Process (simple version)
+
+## Simple Vibe Coding Process
 
 1. **Describe the goal**
    Go to a chatbot (e.g. ChatGPT) and explain what you want to build.
@@ -32,7 +32,7 @@ Here is a simple workflow for building software by having an AI generate **a spe
    Ask the AI to implement the project following `plan.md`, one milestone at a time.
    Run the code constantly. Fix issues. Repeat.
 
----
+
 
 ## Adding features later
 
@@ -41,7 +41,6 @@ When you want a new feature:
     - Ask AI for help. It isn't necessary to create another spec. The new plan can be detailed.
 2. Implement milestone-by-milestone again
 
----
 
 ## A few suggestions that should help
 
@@ -50,7 +49,7 @@ When you want a new feature:
 - **Ask AI to debug errors."** Ask AI to read error codes, or makes suggestions to fix bugs.
 - **Write acceptance criteria.** Ask AI to help you define tests and then check them.
 
----
+
 
 ## Copy/paste prompts
 
