@@ -6,6 +6,13 @@ This page is a practical overview of common Vibe Coding tools and how to pick a 
 The goal: **get from idea → running code → iteration** with as little friction as possible.
 
 
+## YouTube videos: 
+If you prefer to learn by watching videos, here are my videos to help:
+
+* (5 minute overview)[https://youtu.be/Q3Moo9CHlQ8]
+* (30 minute deep dive)[https://youtu.be/l5t13qk11R8]
+
+
 ## The 3 common setups
 
 ### Setup A — Chatbot-only
