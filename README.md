@@ -12,6 +12,7 @@ If you prefer to learn by watching videos, here are my videos to help:
 
 * [5 minute overview](https://youtu.be/Q3Moo9CHlQ8)
 * [30 minute deep dive](https://youtu.be/l5t13qk11R8)
+* [Just start by using ChatGPT???](https://youtu.be/MOQBNgOlwcM)
 
 
 ## Simple Vibe Coding Process
